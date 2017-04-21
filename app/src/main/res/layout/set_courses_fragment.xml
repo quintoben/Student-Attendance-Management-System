@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="25dp"
+        android:text="@string/set_class_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/choose_course"
+        android:text="@string/set_course"
+        android:textSize="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/course"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/choose_course"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/choose_location"
+        android:text="@string/set_location"
+        android:textSize="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/course"
+        android:layout_alignLeft="@+id/choose_course"
+        android:layout_alignStart="@+id/choose_course"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/location"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/choose_location"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/choose_classes"
+        android:text="@string/set_class"
+        android:textSize="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location"
+        android:layout_alignLeft="@+id/choose_course"
+        android:layout_alignStart="@+id/choose_course"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/classes"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/choose_classes"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/choose_time"
+        android:text="@string/set_time"
+        android:textSize="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/classes"
+        android:layout_alignLeft="@+id/choose_course"
+        android:layout_alignStart="@+id/choose_course"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/choose_time"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/set"
+        android:text="@string/publish"
+        android:textSize="25dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:maxEms="12"
+            android:id="@+id/msg"
+            />
+        <Button
+            android:textSize="10dp"
+            android:id="@+id/approve"
+            android:text="批准"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:textSize="10dp"
+            android:id="@+id/reject"
+            android:text="@string/refuse"
+            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:visibility="invisible"
+            />
+    </TableRow>
+
+
+
+</TableLayout>

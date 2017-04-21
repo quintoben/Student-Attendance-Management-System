@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="#000000"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:text="@string/class_need_attend"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bmapView"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:background="#FFFFFF"
+        android:id="@+id/course_list"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/text1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"></ListView>
+
+    <Button
+        android:text="@string/sign_in"
+        android:id="@+id/attendence"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/text1"
+        android:layout_toStartOf="@+id/text1" />
+
+    <Button
+        android:text="@string/ask_for_leave"
+        android:id="@+id/ask4leave"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/attendence"
+        android:layout_toRightOf="@+id/text1"
+        android:layout_toEndOf="@+id/text1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/refresh"
+        android:src="@drawable/refresh"
+        android:background="@null"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/course_list"
+        android:layout_alignRight="@+id/course_list"
+        android:layout_alignEnd="@+id/course_list" />
+
+
+</RelativeLayout>
