@@ -1,0 +1,3 @@
+# Student-Attendance-Management-System
+
+The system includes the functions that teachers can manage the classes schedule that students need to attend. And the student can use the mobile application to see their locations on map and finish the attend action if the distance between the classroom with them is within the error range. The students can also ask for leaves and then the teachers will receive the request and they can decide whether they approve the request and then the student would get the response. Also teacher can see the attendance data and decide whether to make a phone call to students. Manage controls student and teacher information such as their password.
